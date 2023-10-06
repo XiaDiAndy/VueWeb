@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Main from './views/MainWeb.vue'
-import login from './views/SYS/Login.vue'
 // import requset from './utils/Request'
 
 //   requset({
@@ -12,5 +10,5 @@ import login from './views/SYS/Login.vue'
 </script>
 
 <template>
-  <login></login>
+  <router-view></router-view>
 </template>

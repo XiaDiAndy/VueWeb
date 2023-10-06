@@ -1,3 +1,13 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
-    <h1>homepage</h1>
+    <router-view></router-view>
+    <h1>这个是首页</h1>
 </template>
+
+
+<style scoped>
+
+</style>
